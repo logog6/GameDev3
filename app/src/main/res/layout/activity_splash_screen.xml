@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/cardview_dark_background"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GameDev"
+            android:textSize="48dp"
+            android:layout_marginTop="470dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#A30F0F"
+            android:textStyle="bold" android:id="@+id/textView"/>
+    <ProgressBar
+        android:layout_centerHorizontal="true"
+        android:padding="6dp"
+        android:layout_marginTop="600dp"
+        android:layout_width="45dp"
+        android:layout_height="45dp" />
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="430dp" app:srcCompat="@drawable/ic_gamedev" android:id="@+id/imageView"/>
+
+</RelativeLayout>

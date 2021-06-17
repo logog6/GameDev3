@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+    <group>
+        <item
+            android:id="@+id/nav_start"
+            android:icon="@drawable/ic_gamedev"
+            android:title="GameDev Studia"/>
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_gamedevoferty"
+            android:title="Ofert Stanowisk"/>
+        <item
+
+
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_gamedevkontakt"
+            android:title="Kontakt"/>
+    </group>
+</menu>
