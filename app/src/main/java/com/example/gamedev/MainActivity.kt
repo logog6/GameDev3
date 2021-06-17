@@ -27,7 +27,7 @@ class MainActivity: AppCompatActivity(), NavigationView.OnNavigationItemSelected
         toggle.syncState()
         navView.setNavigationItemSelectedListener(this)
     }
-    override fun onNavigationItemSelected(item: MenuItem): Boolean {
+    override fun onNavigationItemSelected(item: MenuItem): Boolean {//coś tam
         when (item.itemId) {
             R.id.nav_start -> {
                 intent = Intent(this, GameDevStudioActivity::class.java)
@@ -47,10 +47,10 @@ class MainActivity: AppCompatActivity(), NavigationView.OnNavigationItemSelected
     }
     fun pdfviewerek(view:View){
         val intent=Intent(this, PdfActivity::class.java)
-        startActivity(intent)
+        startActivity(intent) // pdf
     }
     fun mapping(view:View) {
         val intent = Intent(this, MapsActivity::class.java)
-        startActivity(intent)
+        startActivity(intent)//xDDDD
     }
 }
